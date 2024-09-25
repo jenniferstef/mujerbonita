@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUJER BONITA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href="#" class="logo">logo</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="imagenes/menu.jpg" class="menu-icono" alt="menu" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="file:///C:/xampp/htdocs/pagina/index.html">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="http://127.0.0.1:5500/Productos.html">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="http://localhost/formulario/">Inicio Sesion</a></li>
+
+          </ul>
+          
+         <!-- <button class="btn-3">Iniciar Sesion</button>
+          <a href="http://localhost/formulario/"></a>-->
+          
+        </nav>
+        <div>
+          <ul>
+            <li class="submenu">s
+              <img src="imagenes/carrito-de-compras.png" id="img-carrito" alt="carrito" />
+              <div id="carrito">
+                <table id="lista-carrito">
+                  <thead>
+                    <tr>
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-content container">
+        <div class="header-img">
+          <img src="imagenes/jean_camisa.jpg" alt="" />
+        </div>
+        <div class="header-txt">
+          <h1>Novedades</h1>
+          <p>estrena las mejores prendas</p>
+          <a href="#" class="btn-1">informacion</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="ofert container">
+      <div class="ofert-1"></div>
+      <div class="ofert-img">
+          <img src="imagenes/blusa5.jpg" alt="">
+
+      </div>
+      <div class="ofert-txt">
+          <h3>Blusa</h3>
+          <a href="#" class="btn-2">Blusa negra</a>
+      </div>
+  </div>
+
+        <div class="ofert-1"></div>
+            <div class="ofert-img">
+                <img src="imagenes/camisas.jpg" alt="">
+
+            </div>
+            <div class="ofert-txt">
+                <h3>Camisas</h3>
+                <a href="#" class="btn-2">Camisas cortas veraniegas</a>
+            </div>
+        </div>
+
+        <div class="ofert-1"></div>
+            <div class="ofert-img">
+                <img src="imagenes/polo.jpg" alt="">
+
+            </div>
+            <div class="ofert-txt">
+                <h3>Conjunto</h3>
+                <a href="#" class="btn-2">Remera sin mangas y shorts a juego</a>
+            </div>
+        </div>
+    </section>
+    <!--SECCIÓN DE PRODUCTOS (contenido principal)-->
+
+
+<main class="products container" id="lista-1">
+  <h2>Productos</h2>
+  <div class="product-content">
+
+<!--PRODUCTO 1-->
+
+       <div class="product">
+         <img src="imagenes/camisabotones.jpg" alt="">
+            <div class="product-txt">   
+               <h3>Camisa de tirantes</h3>
+               <p>Calidad premiun</p>
+               <p class="precio">$25,000</p>
+               <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a> <!--cUANDO EL PRODUCTO CAMBIA, EL DATA ID INCREMENTA-->
+            </div>
+       </div>
+
+<!--PRODUCTO 2-->
+
+<div class="product">
+  <img src="imagenes/conjuntoverano.jpg" alt="">
+     <div class="product-txt">   
+        <h3>Conjunto de verano</h3>
+        <p>Calidad premiun</p>
+        <p class="precio">$20,000</p>
+        <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+     </div>
+</div> 
+
+<!--PRODUCTO 3-->
+
+<div class="product">
+  <img src="imagenes/conjunto3.jpg" alt="">
+     <div class="product-txt">   
+        <h3>Conjunto casual</h3>
+        <p>Calidad premiun</p>
+        <p class="precio">$35,000</p>
+        <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+     </div>
+</div>
+
+<!--PRODUCTO 4-->
+
+<div class="product">
+  <img src="imagenes/jardinera.jpg" alt="">
+     <div class="product-txt">   
+        <h3>Jardinera</h3>
+        <p>Calidad premiun</p>
+        <p class="precio">$15,000</p>
+        <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito </a> <!--cUANDO EL PRODUCTO CAMBIA, EL DATA ID INCREMENTA-->
+     </div>
+</div>
+<!--PRODUCTO 5-->
+
+<div class="product">
+  <img src="imagenes/camperita.jpg" alt="">
+     <div class="product-txt">   
+        <h3>Camperita celeste</h3>
+        <p>Calidad premiun</p>
+        <p class="precio">$35,000</p>
+        <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+     </div>
+</div> 
+
+<!--PRODUCTO 6-->
+
+<div class="product">
+  <img src="imagenes/faldatop.jpg" alt="">
+     <div class="product-txt">   
+        <h3>Falda y top</h3>
+        <p>Calidad premiun</p>
+        <p class="precio">$30,000</p>
+        <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+     </div>
+</div>
+
+</div>
+</main>
+<section class="icons container">
+
+  <div class="icon-1">
+       <div class="icon-img">
+         <img src="imagenes/polera.jpg" alt="">
+       </div>
+       <div class="icon-txt">
+         <h3>Combinando Colores, Creando Emociones</h3>
+         <p>Los colores son la paleta con la que pintamos nuestra vida. ¿Listo para combinarlos y crear emociones a través de tu estilo? </p>
+       </div>
+  </div>
+  
+  <!--  -->
+  <div class="icon-1">
+       <div class="icon-img">
+         <img src="imagenes/vestido_corto.jpg" alt="">
+       </div>
+       <div class="icon-txt">
+         <h3>Guardando Tesoros: El Arte del Almacenamiento</h3>
+         <p>El amor por la moda también implica cuidar cada detalle de tu vestuario, cuida tus prendas como si fueran tesoros, y verás cómo tu estilo brilla con luz propia.</p>
+       </div>
+  </div>
+  
+  
+  <!--  -->
+     <div class="icon-1">
+       <div class="icon-img">
+         <img src="imagenes/pantalon_oxford.jpg" alt="">
+       </div>
+       <div class="icon-txt">
+         <h3>La Elegancia en los Detalles: Accesorios que Transforman</h3>
+         <p>Los detalles marcan la diferencia. Con los accesorios adecuados, cualquier conjunto se transforma en una declaración de elegancia. </p>
+       </div>
+  </div>
+  
+  
+  
+  </section>
+  <!--SECCIÓN DEL BLOG-->
+<section class="blog container">
+    
+
+  <div class="blog-1">
+    <img src="imagenes/corset4.jpg" alt="">
+    <h3>Cómo Crear el Look Perfecto para una Noche de Verano</h3>
+    <p>
+      Las noches de verano están llenas de magia y elegancia, y en Mujer Bonita queremos que brilles en cada ocasión. Ya sea una cena romántica en la playa o una salida con amigas, crear el look perfecto es clave para destacar. En nuestro blog de hoy, te guiaremos a través de los pasos para crear un conjunto deslumbrante que te haga sentir segura y radiante. Desde vestidos vaporosos hasta accesorios llamativos, descubre cómo conquistar las noches de verano con estilo y glamour con Mujer Bonita.
+    </p>
+  </div>
+
+<!--BLOG 2-->
+    <div class="blog-1">
+    <img src="imagenes/corset3.jpg" alt="">
+    <h3>Apuesta por la Versatilidad: Combina y Maximiza tus Prendas</h3>
+    <p>
+      En Mujer Bonita, creemos en sacar el máximo provecho de tu guardarropa. Una de las claves para lograrlo es apostar por prendas versátiles que puedas combinar de múltiples maneras para crear diferentes looks. Antes de comprar, piensa en cómo podrías incorporar la prenda en tu armario existente y en qué ocasiones la usarías. Opta por piezas que puedas vestir de manera casual durante el día y que puedas elevar fácilmente para eventos más formales por la noche. ¡La versatilidad es la clave para maximizar tu estilo! 
+   </p>
+  </div>
+
+<!--BLOG 3-->
+  <div class="blog-1">
+    <img src="imagenes/corset.jpg" alt="">
+    <h3>Los Mejores Consejos para Renovar tu Armario de Otoño</h3>
+    <p>
+      El verano va llegando, y con él, nuevas oportunidades para renovar tu armario con las últimas tendencias de moda. En Mujer Bonita, estamos aquí para ayudarte a darle un toque fresco y elegante a tu estilo de otoño. En nuestro blog de hoy, te compartimos los mejores consejos para renovar tu guardarropa con piezas versátiles y chic que te harán lucir espectacular en cualquier ocasión. Desde suéteres acogedores hasta botines de moda, descubre cómo darle un giro a tu estilo de otoño con Mujer Bonita.
+     </p>
+  </div>
+
+    
+
+</section>
+
+<section class="blog container">
+<!--BLOG 4-->
+<div class="blog-1">
+  <img src="imagenes/short_vestidoverde.jpg" alt="">
+  <h3>La mejor calidad y colores para combinar y salir a modelar</h3>
+  <p>
+    El verano va llegando, y con él, nuevas oportunidades para renovar tu armario con las últimas tendencias de moda. En Mujer Bonita, estamos aquí para ayudarte a darle un toque fresco y elegante a tu estilo de otoño. En nuestro blog de hoy, te compartimos los mejores consejos para renovar tu guardarropa con piezas versátiles y chic que te harán lucir espectacular en cualquier ocasión. Desde suéteres acogedores hasta botines de moda, descubre cómo darle un giro a tu estilo de otoño con Mujer Bonita.
+   </p>
+</div>
+
+<!--BLOG 5-->
+<div class="blog-1">
+  <img src="imagenes/ropa_chanel.jpg" alt="">
+  <h3>La mejor calidad y colores para combinar y salir a modelar</h3>
+  <p>
+    El verano va llegando, y con él, nuevas oportunidades para renovar tu armario con las últimas tendencias de moda. En Mujer Bonita, estamos aquí para ayudarte a darle un toque fresco y elegante a tu estilo de otoño. En nuestro blog de hoy, te compartimos los mejores consejos para renovar tu guardarropa con piezas versátiles y chic que te harán lucir espectacular en cualquier ocasión. Desde suéteres acogedores hasta botines de moda, descubre cómo darle un giro a tu estilo de otoño con Mujer Bonita.
+   </p>
+</div>
+
+<!--BLOG 6-->
+<div class="blog-1">
+  <img src="imagenes/conjuntos20.jpg" alt="">
+  <h3>La mejor calidad y colores para combinar y salir a modelar</h3>
+  <p>
+    El verano va llegando, y con él, nuevas oportunidades para renovar tu armario con las últimas tendencias de moda. En Mujer Bonita, estamos aquí para ayudarte a darle un toque fresco y elegante a tu estilo de otoño. En nuestro blog de hoy, te compartimos los mejores consejos para renovar tu guardarropa con piezas versátiles y chic que te harán lucir espectacular en cualquier ocasión. Desde suéteres acogedores hasta botines de moda, descubre cómo darle un giro a tu estilo de otoño con Mujer Bonita.
+   </p>
+</div>
+
+</section>
+<footer class="footer"> 
+<div class="footer-content container">
+ <div class="link">
+   <h3>Redes</h3>
+     <ul>
+      <li><a href="#"><img src="imagenes/instagram.png">  Instagram</a></li>
+      <li><a href="#"><img src="imagenes/facebook.png">  Facebook</a></li>
+      <li><a href="#"><img src="imagenes/whatsapp.png">  Whatsapp</a></li>
+      <li><a href="#"><img src="imagenes/sobre.png">  Correo</a></li>
+     </ul>
+  </div>
+
+
+
+</div>
+</footer>
+
+
+    <script src="scrip.js"></script>
+  </body>
+</html>
